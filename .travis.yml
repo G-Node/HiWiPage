@@ -1,0 +1,9 @@
+language: node_js
+install: echo "skip install"
+branches:
+  only: master
+after_success:
+- chmod 600 deploy-key
+- mv deploy-key ~/.ssh/id_rsa
+- 
+
