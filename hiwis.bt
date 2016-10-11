@@ -1,8 +1,2 @@
 cd html
-mkdir css 
-mkdir img 
-mkdir js 
-mkdir less 
-mkdir scss 
-mkdir vendor 
 put -r * 
