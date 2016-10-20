@@ -10,6 +10,11 @@ body {
 .text-muted {
   color: #777777;
 }
+
+.text-block {
+  text-align: justify;
+}
+
 .text-primary {
   color: #2b8cbe;
 }
@@ -743,4 +748,17 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #2b8cbe;
+}
+.gnode {
+  background-image: url('../img/feature.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: 300px;
+  -moz-background-size: 300px;
+  -o-background-size: 300px;
+  background-size: 300px;
+  text-align: center;
+  color: white;
+ height: 300px;
 }
