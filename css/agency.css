@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -10,11 +10,6 @@ body {
 .text-muted {
   color: #777777;
 }
-
-.text-block {
-  text-align: justify;
-}
-
 .text-primary {
   color: #2b8cbe;
 }
@@ -39,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #a6bddb;
+  color: #226d94;
 }
 h1,
 h2,
@@ -74,8 +69,8 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #a6bddb;
-  border-color: #ece7f2;
+  background-color: #226d94;
+  border-color: #20678c;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -121,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #a6bddb;
-  border-color: #ece7f2;
+  background-color: #226d94;
+  border-color: #20678c;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -163,7 +158,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #a6bddb;
+  color: #226d94;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -200,7 +195,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #a6bddb;
+  background-color: #226d94;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -231,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/20170106_162802.jpg');
+  background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -318,7 +313,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(43, 140, 190, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -760,5 +755,5 @@ body {
   background-size: 300px;
   text-align: center;
   color: white;
- height: 300px;
+  height: 300px;
 }
