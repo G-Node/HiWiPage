@@ -13,6 +13,9 @@ body {
 .text-primary {
   color: #2b8cbe;
 }
+.text-block {
+  text-align: justify;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
